@@ -147,7 +147,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 22px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -427,7 +427,7 @@ h6 {
 #hero .carousel-item,
 #hero .carousel-item::before {
   position: absolute;
-  top: 0;
+  top: 25px;
   right: 0;
   left: 0;
   bottom: 0;
@@ -498,6 +498,7 @@ h6 {
 
 #hero .carousel-control-next-icon,
 #hero .carousel-control-prev-icon {
+  
   background: none;
   font-size: 30px;
   line-height: 0;
@@ -512,6 +513,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 110px;
+
 }
 
 #hero .carousel-control-next-icon:hover,
@@ -576,6 +579,7 @@ h6 {
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
+   height:300px;
   }
 }
 
