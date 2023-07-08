@@ -1792,3 +1792,7 @@ section {
   text-align: center;
   font-size: 13px;
 }
+.imgsz{
+  width:300px;
+  height:200px;
+}
